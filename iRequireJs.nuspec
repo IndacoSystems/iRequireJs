@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>iRequireJs</id>
+    <version>1.0.0</version>
+    <authors>Marius Cosareanu</authors>
+    <owners>Indaco Systems</owners>
+    <description>RequireJs build used by Indaco Systems</description>
+    <projectUrl>https://github.com/IndacoSystems/iRequireJs/</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <tags>requirejs</tags>
+    <language>en-US</language>
+  </metadata>
+  <files>
+	<file src="plugins/async.js" target="Content\Scripts\Lib\Vendor\RequireJs\async.js" />
+	<file src="plugins/depend.js" target="Content\Scripts\Lib\Vendor\RequireJs\depend.js" />
+	<file src="plugins/font.js" target="Content\Scripts\Lib\Vendor\RequireJs\font.js" />
+	<file src="plugins/goog.js" target="Content\Scripts\Lib\Vendor\RequireJs\goog.js" />
+	<file src="plugins/i18n.js" target="Content\Scripts\Lib\Vendor\RequireJs\i18n.js" />
+	<file src="plugins/image.js" target="Content\Scripts\Lib\Vendor\RequireJs\image.js" />
+	<file src="plugins/json.js" target="Content\Scripts\Lib\Vendor\RequireJs\json.js" />
+	<file src="plugins/noext.js" target="Content\Scripts\Lib\Vendor\RequireJs\noext.js" />
+	<file src="plugins/order.js" target="Content\Scripts\Lib\Vendor\RequireJs\order.js" />
+	<file src="plugins/propertyParser.js" target="Content\Scripts\Lib\Vendor\RequireJs\propertyParser.js" />
+	<file src="plugins/r.js" target="Content\Scripts\Lib\Vendor\RequireJs\r.js" />
+	<file src="plugins/text.js" target="Content\Scripts\Lib\Vendor\RequireJs\text.js" />
+	<file src="require.js" target="Content\Scripts\Lib\Vendor\RequireJs\require.js" />
+  </files>
+</package>
